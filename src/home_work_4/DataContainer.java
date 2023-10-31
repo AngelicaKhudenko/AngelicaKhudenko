@@ -7,7 +7,6 @@ public class DataContainer<T> { // Создание класса с дженер
     private T[]data; // Создание поля для получения массива
 
     public DataContainer(T[]data) { // Конструктор для получения массива с выбранным типом данных
-
         this.data=data;
     }
 
@@ -43,7 +42,6 @@ public class DataContainer<T> { // Создание класса с дженер
         if (index<0||index>=data.length) { // Проверка на корректность введенного индекса (индекс не может быть отрицательным, а также индекс не может быть равен длине массива и превышать ее)
             return null;
         }
-
         return data[index];
     }
 
@@ -62,11 +60,17 @@ public class DataContainer<T> { // Создание класса с дженер
      *         - возвращает false, если удаление не прошло успешно
      */
     boolean delete(int index) {
-        if (index<0||index==0&&data.length==1||index>=data.length) { // Проверка на ввод корректного значения индекса
+        if (index<0||index>=data.length) { // Проверка на ввод корректного значения индекса
             return false;
         }
 
-        if (index==0&&data.length>1) {
+        if (index==0&&data.length==1) { // Проверка на удаление единственного элемента в массиве длиной 1
+            T[] smallerData = (T[]) new Object[0]; // Создание пустого массива
+            data=smallerData; // Перезапись ссылки на новый уменьшенный массив
+            return true;
+        }
+
+        if (index==0) {
             T[] smallerData = (T[]) new Object[data.length - 1]; // Создание временного массива с уменьшенным количеством элементов
             for (int i=1; i<data.length; i++) {
                 smallerData[i-1]=data[i];
@@ -103,7 +107,6 @@ public class DataContainer<T> { // Создание класса с дженер
                 return delete(i);
             }
         }
-
         return false;
     }
 
