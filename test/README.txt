@@ -49,3 +49,13 @@ CalculatorWithMathCopyTest (пакет home_work_3.calcs.simple)
 CalculatorWithMathExtendsTest (пакет home_work_3.calcs.simple)
 CalculatorWithOperatorTest (пакет home_work_3.calcs.simple)
 
+___________________________________________________________________
+
+home_work_4 - тестирование д.з.4
+DoubleComparatorTest (пакет home_work_4.comparators)
+IntegerComparatorTest (пакет home_work_4.comparators)
+ObjectComparatorTest (пакет home_work_4.comparators)
+StringAlphabeticComparatorTest (пакет home_work_4.comparators)
+StringLengthComparatorTest (пакет home_work_4.comparators)
+DataContainerTest (пакет home_work_4)
+
