@@ -4,11 +4,10 @@ import home_work_3.calcs.simple.CalculatorWithMathCopy;
 
 public class CalculatorWithCounterAutoAgregation {
     private CalculatorWithMathCopy calculator; // поле, хранящее объект класса калькулятор
+    private long counter; // создание поля-счетчика количества использований калькулятора
     public CalculatorWithCounterAutoAgregation(CalculatorWithMathCopy calculator) { // конструктор для инициализации поля
         this.calculator = calculator;
     }
-
-    private long counter; // создание поля-счетчика количества использований калькулятора
 
     /**
      * Метод выполнения деления двух чисел с помощью делегирования, а также с подсчетом количества использований калькулятора

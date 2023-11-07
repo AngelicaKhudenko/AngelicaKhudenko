@@ -10,6 +10,8 @@ public class CalculatorWithCounterAutoChoiceAgregation {
     private CalculatorWithMathCopy calculatorWithMathCopy; // поле для второго варианта конструктора
     private CalculatorWithMathExtends calculatorWithMathExtends; // поле для третьего варианта конструктора
 
+    private long counter; // создание поля-счетчика количества использований калькулятора
+
     public CalculatorWithCounterAutoChoiceAgregation(CalculatorWithOperator calculator) { // первый конструктор
         this.calculatorWithOperator = calculator;
     }
@@ -21,8 +23,6 @@ public class CalculatorWithCounterAutoChoiceAgregation {
     public CalculatorWithCounterAutoChoiceAgregation(CalculatorWithMathExtends calculator) { // третий конструктор
         this.calculatorWithMathExtends = calculator;
     }
-
-    private long counter; // создание поля-счетчика количества использований калькулятора
 
     /**
      * Метод выполнения деления двух чисел с помощью делегирования в зависимости от выбора объекта, а также с подсчетом количества использований калькулятора

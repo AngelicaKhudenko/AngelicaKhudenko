@@ -3,7 +3,6 @@ package home_work_3.calcs.additional;
 import home_work_3.calcs.api.ICalculator;
 
 public class CalculatorWithCounterAutoDecorator implements ICalculator {
-
     private ICalculator calculator; // поле, хранящее объект типа ICalculator
     private long counter; // создание поля-счетчика количества использований калькулятора
     public CalculatorWithCounterAutoDecorator(ICalculator calculator) { // конструктор создания калькулятора
@@ -95,8 +94,12 @@ public class CalculatorWithCounterAutoDecorator implements ICalculator {
         return counter;
     }
 
+
+    /**
+     * Метод, который возвращает используемый калькулятор
+     * @return - возвращает используемый калькулятор
+     */
     public ICalculator getCalculator(){
         return calculator;
     }
-
 }
