@@ -5,17 +5,16 @@ import java.util.Comparator;
 
 public class DataContainer<T> { // Создание класса с дженериком
     private T[]data; // Создание поля для получения массива
-
     public DataContainer(T[]data) { // Конструктор для получения массива с выбранным типом данных
         this.data=data;
     }
 
     /**
-     * Метод,который добавляет данные во внутреннее поле data и возвращает номер позиции, в которую были вставлены данные, начиная с 0
+     * Метод, который добавляет данные во внутреннее поле data и возвращает номер позиции, в которую были вставлены данные, начиная с 0
      * @param item - данные для добавления
      * @return - возвращает номер позиции в которую были вставлены данные, начиная с 0
      */
-    int add(T item) {
+    public int add(T item) {
         if (item == null) { // Проверка элемента на "пустоту"
             return -1;
         }
@@ -38,7 +37,7 @@ public class DataContainer<T> { // Создание класса с дженер
      * @param index - индекс элемента, который нужно возвратить
      * @return - объект массива, соответствующий заданному индексу
      */
-    T get(int index) {
+    public T get(int index) {
         if (index<0||index>=data.length) { // Проверка на корректность введенного индекса (индекс не может быть отрицательным, а также индекс не может быть равен длине массива и превышать ее)
             return null;
         }
@@ -49,7 +48,7 @@ public class DataContainer<T> { // Создание класса с дженер
      * Метод, который возвращает массив из поля data
      * @return - массив из поля data
      */
-    T[] getItems() {
+    public T[] getItems() {
         return data;
     }
 
@@ -59,7 +58,7 @@ public class DataContainer<T> { // Создание класса с дженер
      * @return - возвращает true, если удаление прошло успешно
      *         - возвращает false, если удаление не прошло успешно
      */
-    boolean delete(int index) {
+    public boolean delete(int index) {
         if (index<0||index>=data.length) { // Проверка на ввод корректного значения индекса
             return false;
         }
@@ -80,10 +79,10 @@ public class DataContainer<T> { // Создание класса с дженер
         }
 
         T[] smallerData = (T[]) new Object[data.length - 1]; // Создание временного массива с уменьшенным количеством элементов
-        for (int i=0; i<index-1; i++) {
+        for (int i=0; i<index; i++) {
             smallerData[i]=data[i];
         }
-        for (int i=index; i<data.length; i++) {
+        for (int i=index+1; i<data.length; i++) {
             smallerData[i-1]=data[i];
         }
 
@@ -97,13 +96,13 @@ public class DataContainer<T> { // Создание класса с дженер
      * @return - возвращает true, если удаление прошло успешно
      *         - возвращает false, если удаление не прошло успешно
      */
-    boolean delete(T item) {
+    public boolean delete(T item) {
         if (item==null) {
             return false;
         }
 
         for (int i=0; i<data.length; i++) {
-            if (data[i].equals(item)) {
+            if (item.equals(data[i])) {
                 return delete(i);
             }
         }
@@ -114,7 +113,7 @@ public class DataContainer<T> { // Создание класса с дженер
      * Метод, который занимается сортировкой данных, записанных в поле data, используя реализацию сравнения из переданного объекта comparator
      * @param comparator - механизм сортировки в зависимости от типа данных поля (Integer,Double,String,Object)
      */
-    void sort(Comparator<T> comparator) {
+    public void sort(Comparator<T> comparator) {
         int length=data.length;
         T temporary;
         for (int i=0; i<length-1; i++) {
@@ -132,21 +131,24 @@ public class DataContainer<T> { // Создание класса с дженер
      * Переопределенный метод toString, который позволяет выводить содержимое data без ячеек, в которых хранится null
      * @return result - массив data, преобразованный в строку
      */
-
     @Override
     public String toString() {
-        String result="";
+        StringBuilder builder = new StringBuilder();
+        boolean needComma = false;
+
+        builder.append("[");
+
         for(int i=0; i<data.length; i++) {
-            if (this.data[i]==null){
-                continue;
-            }
-            if(result==""){
-                result= result+this.data[i].toString();
+            if (this.data[i]!=null&&needComma){
+                builder.append(", ");
             } else {
-                result= result+", "+this.data[i].toString();
+                needComma = true;
             }
+            builder.append(this.data[i]);
         }
-        return "["+result+"]";
+
+        builder.append("]");
+        return builder.toString();
     }
 }
 
