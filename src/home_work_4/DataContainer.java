@@ -139,12 +139,14 @@ public class DataContainer<T> { // Создание класса с дженер
         builder.append("[");
 
         for(int i=0; i<data.length; i++) {
-            if (this.data[i]!=null&&needComma){
-                builder.append(", ");
-            } else {
-                needComma = true;
+            if (this.data[i]!=null){
+                if (needComma){
+                    builder.append(", ");
+                } else {
+                    needComma = true;
+                }
+                builder.append(this.data[i]);
             }
-            builder.append(this.data[i]);
         }
 
         builder.append("]");
