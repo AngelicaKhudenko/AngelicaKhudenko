@@ -9,13 +9,13 @@ public class DataContainerTest {
     DataContainer <Integer> container=new DataContainer<>(data);
 
     @Test
-    public void add1(){
+    public void add1() {
         int result=container.add(5);
         Assertions.assertEquals(0,result);
     }
 
     @Test
-    public void get1(){
+    public void get1() {
         container.add(5);
         container.add(4);
         container.add(3);
@@ -24,14 +24,14 @@ public class DataContainerTest {
     }
 
     @Test
-    public void getItems1(){
+    public void getItems1() {
         Integer []result=container.getItems();
         Integer [] myResult=new Integer[2];
         Assertions.assertArrayEquals(myResult,result);
     }
 
     @Test
-    public void getItems2(){
+    public void getItems2() {
         container.add(5);
         container.add(4);
         container.add(3);
@@ -41,7 +41,7 @@ public class DataContainerTest {
     }
 
     @Test
-    public void delete1(){
+    public void delete1() {
         container.add(5);
         container.add(4);
         container.add(3);
@@ -50,7 +50,7 @@ public class DataContainerTest {
     }
 
     @Test
-    public void delete2(){
+    public void delete2() {
         container.add(5);
         container.add(4);
         container.add(3);
@@ -59,7 +59,7 @@ public class DataContainerTest {
     }
 
     @Test
-    public void deleteItem1(){
+    public void deleteItem1() {
         container.add(3);
         container.add(2);
         container.add(1);
@@ -68,7 +68,7 @@ public class DataContainerTest {
     }
 
     @Test
-    public void deleteItem2(){
+    public void deleteItem2() {
         container.add(5);
         container.add(4);
         container.add(3);
@@ -77,7 +77,7 @@ public class DataContainerTest {
     }
 
     @Test
-    public void sort1(){
+    public void sort1() {
         container.add(5);
         container.add(4);
         container.add(3);
@@ -91,7 +91,7 @@ public class DataContainerTest {
     }
 
     @Test
-    public void sort2(){
+    public void sort2() {
         container.add(0);
         container.add(0);
         container.add(0);
@@ -105,7 +105,7 @@ public class DataContainerTest {
     }
 
     @Test
-    public void sort3(){
+    public void sort3() {
         container.add(-1);
         container.add(-1);
         container.add(2);
@@ -119,7 +119,7 @@ public class DataContainerTest {
     }
 
     @Test
-    public void toStringModified(){
+    public void toStringModified1() {
         container.add(5);
         container.add(4);
         container.add(3);
@@ -129,5 +129,11 @@ public class DataContainerTest {
 
         String result=container.toString();
         Assertions.assertEquals("[5, 4, 3, 3, 4, 5]",result);
+    }
+
+    @Test
+    public void toStringModified2() {
+        String result=container.toString();
+        Assertions.assertEquals("[]",result);
     }
 }
