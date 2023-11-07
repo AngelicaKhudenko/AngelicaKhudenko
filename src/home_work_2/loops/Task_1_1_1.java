@@ -1,28 +1,23 @@
 package home_work_2.loops;
 
-import java.util.Scanner;
-
 public class Task_1_1_1 {
-    public static void main(String[] args) {
-        Scanner reader = new Scanner(System.in);
-        boolean checkResult=true;
-        byte num=0;
-
-        do { // Проверка на корректность введенных данных
-            System.out.println("Введите целое положительное число не больше 20"); // Значения факториалов чисел больше 20 - больше максимального значения long, что приведет к переполнению
-            String check = reader.nextLine();
-
-            if ((check.length()==2&&check.compareTo("20")<=0&&check.compareTo("10")>=0)||(check.length()==1&&check.compareTo("1")>=0&&check.compareTo("9")<=0)) {
-                num=Byte.parseByte(check);
-                checkResult=true;
-            } else {
-                System.out.println("Введено некорректное значение, не соответствующее заданному условию");
-                checkResult=false;
-            }
-        } while (!checkResult);
-
+    /**
+     * Метод, который вовзращает факториал заданного числа
+     * @param num - число для расчета факториала (не больше 20)
+     * @return result - строка, содержащая формулу расчета факториала и результат
+     *                - "неверный ввод данных", если введено отрицательное число или число больше 20
+     */
+    public String findFactorial(byte num) {
         String result=""; // Создание пустой строки для вывода результата
         long factorial=1; // Создание переменной для расчета факториала
+
+        if (num==0){
+            return "0!=1";
+        }
+
+        if (num<0||num>20){
+            return "неверный ввод данных";
+        }
 
         for (int i=1; i<=num; i++) {
             factorial=factorial*i;
@@ -33,6 +28,6 @@ public class Task_1_1_1 {
             }
         }
 
-        System.out.println(result);
+        return result;
     }
 }

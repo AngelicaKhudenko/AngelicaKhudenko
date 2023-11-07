@@ -1,67 +1,62 @@
 package home_work_2.loops;
 
-import java.util.Scanner;
-
 public class Task_1_2 {
-    public static void main(String[] args) {
-        Scanner reader=new Scanner(System.in);
-        boolean checkResult;
-        String check;
-
-        do { // Проверка на корректность введенных данных
-            System.out.println("Введите целое положительное число");
-            check=reader.nextLine();
-
-            int problems = 0; // Создание переменной для подсчета нестандартных символов в строке
-            for (int i = 0; i < check.length(); i++) {
-                if (check.charAt(i) > '9'||check.charAt(i)<'0') {
-                    problems++;
-                }
-            }
-
-            checkResult=true;
-            if (check.equals("0")) {
-                System.out.println("Введен ноль");
-                checkResult=false;
-                continue;
-            } else if ((check.contains(".") || check.contains(","))&&problems==1&&check.indexOf(".")!=(check.length()-1)&&check.indexOf(",")!=(check.length()-1)) {
-                System.out.println("Введено не целое число");
-                checkResult=false;
-                continue;
-            } else if (check.charAt(0) == '-' && problems == 1) {
-                System.out.println("Введено отрицательное число");
-                checkResult=false;
-                continue;
-            } else if (check.startsWith("00")) {
-                System.out.println("Введено не число");
-                checkResult=false;
-                continue;
-            } else if (problems >= 1) {
-                System.out.println("Введено не число");
-                checkResult=false;
-                continue;
-            } else if (check.length()>19||check.length()==19&&check.compareTo("9223372036854775807")>0) {
-                System.out.println("Введено число больше диапазона long");
-                checkResult=false;
-            }
-        } while (!checkResult);
-
+    /**
+     * Метод, который возвращает строку, содержащую формулу и результат перемножения цифр числа
+     * @param numberString - строка, содержащая число
+     * @return result - строка, содержащая формулу и результат перемножения цифр числа
+     *         "Введен ноль" - если пользователь ввел ноль
+     *         "Введено не целое число" - если пользователь ввел не целое число
+     *         "Введено отрицательное число" - если пользователь ввел отрицательное число
+     *         "Введено не число" - если пользователь ввел не число, а иные символы
+     *         "Введено число больше диапазона long" - если пользователь ввел число больше диапазона long
+     */
+    public String findMultiplicationOfDigits(String numberString) {
         long multiplication=1; // Создание переменной для расчета умножения
         String result=""; // Создание строки для вывода результата
 
-        for(int i=0; i<check.length(); i++) {
-            char digit=check.charAt(i); // Создание символьной переменной для записи элемента строки
+        int problems = 0; // Создание переменной для подсчета нестандартных символов в строке
+
+        int length=numberString.length();
+        for (int i = 0; i <length; i++) {
+            if (numberString.charAt(i) > '9'||numberString.charAt(i)<'0') {
+                problems++;
+            }
+        }
+
+        if (numberString.equals("0")) {
+            return "Введен ноль";
+        }
+
+        if ((numberString.contains(".") || numberString.contains(","))&&problems==1&&numberString.indexOf(".")!=(numberString.length()-1)&&numberString.indexOf(",")!=(numberString.length()-1)) {
+            return "Введено не целое число";
+        }
+
+        if (numberString.charAt(0) == '-' && problems == 1) {
+            return "Введено отрицательное число";
+        }
+
+        if (numberString.startsWith("00")||problems >= 1) {
+            return "Введено не число";
+        }
+
+        if (numberString.length()>19||numberString.length()==19&&numberString.compareTo("9223372036854775807")>0) {
+            return "Введено число больше диапазона long";
+        }
+
+        for(int i=0; i<numberString.length(); i++) {
+            char digit=numberString.charAt(i); // Создание символьной переменной для записи элемента строки
             byte num=Byte.parseByte(String.valueOf(digit)); // Считывание элемента строки в числовую переменную
 
             multiplication=multiplication*num;
 
-            if (i==check.length()-1) {
+            if (i==numberString.length()-1) {
                 result=result+num+"="+multiplication;
             } else {
                 result=result+num+"*";
             }
         }
 
-        System.out.println(result);
+        return result;
     }
 }

@@ -3,14 +3,42 @@ package home_work_2.arrays;
 import home_work_2.utils.ArraysUtils;
 
 public class WhileOperation implements IArraysOperation {
-    public static void main(String[] args) {
-        int [] container= ArraysUtils.arrayFromConsole(); // Получение массива чисел
+    public String printAllElements(int[] container) {
+        int length = container.length; // Получение длины массива
+        int i = 0;
 
-        IArraysOperation.printAllElements(container, 3); // Вызов метода по выводу всех элементов массива
-        System.out.println();
-        IArraysOperation.printSecondElement(container,3); // Вызов метода по выводу каждого второго элемента массива
-        System.out.println();
-        IArraysOperation.printReverseElements(container,3); // Вызов метода по выводу всех элементов массива в обратном порядке
-        System.out.println();
+        String result="";
+        while (i < length) {
+            result+=container[i] + " ";
+            i++;
+        }
+        return result.trim();
+    }
+
+    public String printSecondElement(int[] container) {
+        int length = container.length; // Получение длины массива
+        int i = 1;
+        if (length < 2) {
+            return "Длина массива не позволяет вывести каждый второй элемент";
+        }
+
+        String result="";
+        while (i < length) {
+            result+=container[i] + " ";
+            i += 2;
+        }
+        return result.trim();
+    }
+
+    public String printReverseElements(int[] container) {
+        int length = container.length; // Получение длины массива
+        int i = length - 1;
+
+        String result="";
+        while (i >= 0) {
+            result+=container[i] + " ";
+            i--;
+        }
+        return result.trim();
     }
 }
