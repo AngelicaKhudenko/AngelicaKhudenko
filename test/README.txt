@@ -36,3 +36,16 @@ Task_2_4Test (пакет home_work_2.arrays)
 
 Пункт 4:
 SortsUtilsTest (пакет home_work_2.utils)
+
+___________________________________________________________________
+
+home_work_3 - тестирование д.з.3
+CalculatorWithCounterAutoDecoratorTest (пакет home_work_3.calcs.additional)
+CalculatorWithCounterAutoSuperTest (пакет home_work_3.calcs.additional)
+CalculatorWithCounterClassicTest (пакет home_work_3.calcs.additional)
+CalculatorWithMemoryDecoratorTest (пакет home_work_3.calcs.additional)
+
+CalculatorWithMathCopyTest (пакет home_work_3.calcs.simple)
+CalculatorWithMathExtendsTest (пакет home_work_3.calcs.simple)
+CalculatorWithOperatorTest (пакет home_work_3.calcs.simple)
+
