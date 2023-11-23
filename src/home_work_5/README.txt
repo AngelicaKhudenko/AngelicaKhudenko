@@ -18,4 +18,4 @@ home_work_5.comparators
 
 Task6:
 6.0 AutoMethods; MainWithManager
-6.2-6.4 AutoMethods; MainUsual
+6.1-6.4 AutoMethods; MainUsual
