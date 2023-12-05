@@ -59,3 +59,16 @@ StringAlphabeticComparatorTest (пакет home_work_4.comparators)
 StringLengthComparatorTest (пакет home_work_4.comparators)
 DataContainerTest (пакет home_work_4)
 
+
+___________________________________________________________________
+
+home_work_5 - тестирование д.з.6
+Тестирование работы созданных реализаций интерфейса ISearchEngine
+EasySearcherTest (пакет home_work_6.searchers)
+RegExSearchTest (пакет home_work_6.searchers)
+SearchEngineCaseNormalizerTest (пакет home_work_6.searchers)
+SearchEnginePunctuationNormalizerTest (пакет home_work_6.searchers)
+
+Тестирование методов, выполняющих работу в классах WorkWithUser и Main
+SearcherTest (пакет home_work_6.searchers)
+WorkOnBook (пакет home_work_6.tools)
