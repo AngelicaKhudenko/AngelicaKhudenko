@@ -1,12 +1,600 @@
-zhizn-vzajmy-122510.txt
- - она - 126
-
- - думала - 6
-
- - осень - 0
+anna-karenina-172100.txt
+ - дождь - 3
+bezdna-3523725.txt
+ - дождь - 0
+bezumno-schastlivye-neveroyatno-smeshnye-rasskazy-o-nashej-obychnoj-zhizni-24155440.txt
+ - дождь - 0
+bumazhnye-goroda-6371353.txt
+ - дождь - 1
+Chehov_A._Loshadinaya_Familiya.txt
+ - дождь - 0
+Chehov_A._Spisokshkolnoy._Chelovek_V_Futlyare.txt
+ - дождь - 0
+Chehov_A._Spisokshkolnoy._Vishnevyiyi_Sad.txt
+ - дождь - 0
+chertogi-razuma-ubej-v-sebe-idiota-32483943.txt
+ - дождь - 0
+Defo_D._Robinzonkruzo1._Robinzon_Kruzo.txt
+ - дождь - 14
+desyat-negrityat-22174330.txt
+ - дождь - 0
+devushka-v-poezde-11306339.txt
+ - дождь - 2
+Dnevnik-Bridzhit-Dzhons.txt
+ - дождь - 0
+dnevnik-pamyati-180140.txt
+ - дождь - 1
+do-vstrechi-s-toboj-txt.txt
+ - дождь - 2
+don-kihot-48471399.txt
+ - дождь - 3
+Dostoevskiyi_F._Idiot.txt
+ - дождь - 0
+dyuna-55339991.txt
+ - дождь - 2
+egipetskij-rebus-20102356.txt
+ - дождь - 0
+ezhevichnoe-vino-654875.txt
+ - дождь - 0
+forrest-gamp-6525365.txt
+ - дождь - 0
+Gogol_N._Mertviye_DushiI.txt
+ - дождь - 4
+goluboj-karbunkul-124159.txt
+ - дождь - 0
+gordost-i-predubezhdenie-6257491.txt
+ - дождь - 2
+Gorkiyi_M._Spisokshkolnoy._Na_Dne.txt
+ - дождь - 0
+gormony-schastya-kak-priuchit-mozg-vyrabatyvat-serotonin-dofamin-endorfin-i-oksitotsin-21136251.txt
+ - дождь - 0
+Griboedov_A._Klassikavshko._Gore_Ot_Uma.txt
+ - дождь - 0
+grozovoj-pereval-137475.txt
+ - дождь - 0
+hobbit-ili-tuda-i-obratno-122257.txt
+ - дождь - 6
+hod-korolevy-51884058.txt
+ - дождь - 0
+igra-endera-122405.txt
+ - дождь - 0
+iskra-zhizni-128053.txt
+ - дождь - 1
+kak-narisovat-lyubuyu-zveryushku-za-30.txt
+ - дождь - 0
+kod-da-vinchi-118567.txt
+ - дождь - 0
+kollektsioner-118944.txt
+ - дождь - 5
+krasnaya-tabletka-posmotri-pravde-v-glaza-32481440.txt
+ - дождь - 0
+kratkie-otvety-na-bolshie-voprosy-39500497.txt
+ - дождь - 0
+kruella-66865688.txt
+ - дождь - 0
+Kuprin_A._Granatovyiyi_Braslet.txt
+ - дождь - 0
+kurinyj-bulon-dlya-dushi-my-silnee-nashih-strahov-101-istoriya-o-lyudyah-kotorye-risknuli-radi-mechty-51366443.txt
+ - дождь - 0
+Kyerroll_L._Alisa_V_Strane_ChudesII.txt
+ - дождь - 0
+lili-pridumyvaet-zhelanie-55316408.txt
+ - дождь - 0
+Lisichka-sestrichka-i-volk.txt
+ - дождь - 0
+magiya-utra-kak-pervyj-chas-dnya-opredelyaet-vash-uspeh-txt.txt
+ - дождь - 0
+malchik-zvezda.txt
+ - дождь - 0
+malenkie-zhenshhiny-50390816.txt
+ - дождь - 2
+mechtat-ne-vredno-kak-poluchit-to-chego-dejstvitelno-hochesh-8205373.txt
+ - дождь - 0
+nad-kukushkinym-gnezdom-132363.txt
+ - дождь - 0
+nad-propastyu-vo-rzhi-127781.txt
+ - дождь - 0
+nadvinuvshayasya-tma-txt.txt
+ - дождь - 1
+noch-pered-rozhdestvom-21182288.txt
+ - дождь - 0
+noch-v-lissabone-27061646.txt
+ - дождь - 0
+o-chem-govoryat-cvety.txt
+ - дождь - 0
+Ostrovskiyi_A._Bespridannica.txt
+ - дождь - 0
+Ostrovskiyi_A._Spisokshkolnoy._Groza.txt
+ - дождь - 0
+Petrov_E._Ostapbender1._Dvenadcat_StulevIIII.txt
+ - дождь - 3
+Po-shhuchemu-veleniyu.txt
+ - дождь - 0
+pochemu-rusalka-plachet-21201559.txt
+ - дождь - 0
+podi-tuda-ne-znayu-kuda.txt
+ - дождь - 0
+portret-doriana-greya-130224.txt
+ - дождь - 0
+priklyucheniya-chipollino.txt
+ - дождь - 9
+prizrak-koshki-18925237.txt
+ - дождь - 0
+propavshij-izumrud-18925405.txt
+ - дождь - 0
+Pushkin_A._Ruslan_I_Lyudmila-txt.txt
+ - дождь - 1
+Pushkin_A._Spisokshkolnoy._Evgeniyi_Onegin.txt
+ - дождь - 2
+razvivaj-svoj-mozg-kak-perenastroit-razum-i-realizovat-sobstvennyj-potentsial-39009060.txt
+ - дождь - 0
+sadko.txt
+ - дождь - 0
+sapiens-kratkaya-istoriya-chelovechestva-22150614.txt
+ - дождь - 2
+Shekspir_U._Gamlet_Princ_DatskiyiII.txt
+ - дождь - 0
+Shekspir_U._Romeo_I_DjulettaIIII.txt
+ - дождь - 1
+shhenok-pod-prikrytiem-18924566.txt
+ - дождь - 0
+shokolad-121580.txt
+ - дождь - 1
+sila-podsoznaniya-ili-kak-izmenit-zhizn-za-4-nedeli.txt
+ - дождь - 0
+sila-voli-6298220.txt
+ - дождь - 0
+sobache-serdtse-133810.txt
+ - дождь - 0
+sobor-parizhskoj-bogomateri-129945.txt
+ - дождь - 2
+son-v-letnyuyu-noch-125623.txt
+ - дождь - 0
+starik-i-more-rasskazy-sbornik-25290752.txt
+ - дождь - 0
+temnye-allei-621185.txt
+ - дождь - 0
+Tolstoyi_L._Spisokshkolnoy._Posle_Bala.txt
+ - дождь - 0
+Tolstoyi_L._Voyinaimir1._Voyina_I_Mir_Kniga_1-txt.txt
+ - дождь - 0
+Tolstoyi_L._Voyinaimir2._Voyina_I_Mir_Kniga_2-txt.txt
+ - дождь - 2
+triumfalnaya-arka-26112223.txt
+ - дождь - 12
+troe-v-lodke-ne-schitaya-sobaki-138854.txt
+ - дождь - 3
 tsvety-dlya-eldzhernona-145410.txt
- - он - 165
-
- - решил - 0
+ - дождь - 1
+Turgenev_I._Spisokshkolnoy._Otcyi_I_Deti.txt
+ - дождь - 0
+Tven_M._Priklyucheniya1._Pohojdeniya_Toma_SoyieraI.txt
+ - дождь - 2
+Ubijstvo-na-pole-dlya-golfa.txt
+ - дождь - 0
+ubijstvo-v-vostochnom-ekspresse-18922333.txt
+ - дождь - 0
+udivitelnoe-puteshestvie-krolika-edvarda.txt
+ - дождь - 1
+ulybka.txt
+ - дождь - 0
+velikij-getsbi-9447797.txt
+ - дождь - 0
+vinni-puh-i-vse-vse-vse.txt
+ - дождь - 10
+volk-i-yagnenok-22130098.txt
+ - дождь - 0
+voron-i-lisitsa.txt
+ - дождь - 0
+Yeposyi_legendy._Hrestomatiidly._Ilya_Muromec_I_Soloveyi_R.txt
+ - дождь - 0
+zagadka-zakrytogo-yashhika-18889112.txt
+ - дождь - 0
+zamok-iz-stekla-8634687.txt
+ - дождь - 0
+zavtrak-u-tiffani-34330456.txt
+ - дождь - 0
 zhizn-vzajmy-122510.txt
- - ночь - 6
+ - дождь - 4
+zoloto-hishhnikov-txt.txt
+ - дождь - 0
+anna-karenina-172100.txt
+ - снег - 7
+bezdna-3523725.txt
+ - снег - 0
+bezumno-schastlivye-neveroyatno-smeshnye-rasskazy-o-nashej-obychnoj-zhizni-24155440.txt
+ - снег - 0
+bumazhnye-goroda-6371353.txt
+ - снег - 0
+Chehov_A._Loshadinaya_Familiya.txt
+ - снег - 0
+Chehov_A._Spisokshkolnoy._Chelovek_V_Futlyare.txt
+ - снег - 0
+Chehov_A._Spisokshkolnoy._Vishnevyiyi_Sad.txt
+ - снег - 3
+chertogi-razuma-ubej-v-sebe-idiota-32483943.txt
+ - снег - 0
+Defo_D._Robinzonkruzo1._Robinzon_Kruzo.txt
+ - снег - 6
+desyat-negrityat-22174330.txt
+ - снег - 0
+devushka-v-poezde-11306339.txt
+ - снег - 0
+Dnevnik-Bridzhit-Dzhons.txt
+ - снег - 0
+dnevnik-pamyati-180140.txt
+ - снег - 0
+do-vstrechi-s-toboj-txt.txt
+ - снег - 5
+don-kihot-48471399.txt
+ - снег - 0
+Dostoevskiyi_F._Idiot.txt
+ - снег - 1
+dyuna-55339991.txt
+ - снег - 0
+egipetskij-rebus-20102356.txt
+ - снег - 1
+ezhevichnoe-vino-654875.txt
+ - снег - 0
+forrest-gamp-6525365.txt
+ - снег - 0
+Gogol_N._Mertviye_DushiI.txt
+ - снег - 3
+goluboj-karbunkul-124159.txt
+ - снег - 0
+gordost-i-predubezhdenie-6257491.txt
+ - снег - 0
+Gorkiyi_M._Spisokshkolnoy._Na_Dne.txt
+ - снег - 1
+gormony-schastya-kak-priuchit-mozg-vyrabatyvat-serotonin-dofamin-endorfin-i-oksitotsin-21136251.txt
+ - снег - 0
+Griboedov_A._Klassikavshko._Gore_Ot_Uma.txt
+ - снег - 0
+grozovoj-pereval-137475.txt
+ - снег - 3
+hobbit-ili-tuda-i-obratno-122257.txt
+ - снег - 1
+hod-korolevy-51884058.txt
+ - снег - 0
+igra-endera-122405.txt
+ - снег - 0
+iskra-zhizni-128053.txt
+ - снег - 0
+kak-narisovat-lyubuyu-zveryushku-za-30.txt
+ - снег - 0
+kod-da-vinchi-118567.txt
+ - снег - 0
+kollektsioner-118944.txt
+ - снег - 0
+krasnaya-tabletka-posmotri-pravde-v-glaza-32481440.txt
+ - снег - 0
+kratkie-otvety-na-bolshie-voprosy-39500497.txt
+ - снег - 0
+kruella-66865688.txt
+ - снег - 0
+Kuprin_A._Granatovyiyi_Braslet.txt
+ - снег - 0
+kurinyj-bulon-dlya-dushi-my-silnee-nashih-strahov-101-istoriya-o-lyudyah-kotorye-risknuli-radi-mechty-51366443.txt
+ - снег - 1
+Kyerroll_L._Alisa_V_Strane_ChudesII.txt
+ - снег - 0
+lili-pridumyvaet-zhelanie-55316408.txt
+ - снег - 0
+Lisichka-sestrichka-i-volk.txt
+ - снег - 0
+magiya-utra-kak-pervyj-chas-dnya-opredelyaet-vash-uspeh-txt.txt
+ - снег - 0
+malchik-zvezda.txt
+ - снег - 2
+malenkie-zhenshhiny-50390816.txt
+ - снег - 3
+mechtat-ne-vredno-kak-poluchit-to-chego-dejstvitelno-hochesh-8205373.txt
+ - снег - 0
+nad-kukushkinym-gnezdom-132363.txt
+ - снег - 0
+nad-propastyu-vo-rzhi-127781.txt
+ - снег - 2
+nadvinuvshayasya-tma-txt.txt
+ - снег - 1
+noch-pered-rozhdestvom-21182288.txt
+ - снег - 3
+noch-v-lissabone-27061646.txt
+ - снег - 0
+o-chem-govoryat-cvety.txt
+ - снег - 0
+Ostrovskiyi_A._Bespridannica.txt
+ - снег - 0
+Ostrovskiyi_A._Spisokshkolnoy._Groza.txt
+ - снег - 0
+Petrov_E._Ostapbender1._Dvenadcat_StulevIIII.txt
+ - снег - 2
+Po-shhuchemu-veleniyu.txt
+ - снег - 0
+pochemu-rusalka-plachet-21201559.txt
+ - снег - 0
+podi-tuda-ne-znayu-kuda.txt
+ - снег - 0
+portret-doriana-greya-130224.txt
+ - снег - 0
+priklyucheniya-chipollino.txt
+ - снег - 3
+prizrak-koshki-18925237.txt
+ - снег - 0
+propavshij-izumrud-18925405.txt
+ - снег - 0
+Pushkin_A._Ruslan_I_Lyudmila-txt.txt
+ - снег - 2
+Pushkin_A._Spisokshkolnoy._Evgeniyi_Onegin.txt
+ - снег - 11
+razvivaj-svoj-mozg-kak-perenastroit-razum-i-realizovat-sobstvennyj-potentsial-39009060.txt
+ - снег - 0
+sadko.txt
+ - снег - 0
+sapiens-kratkaya-istoriya-chelovechestva-22150614.txt
+ - снег - 0
+Shekspir_U._Gamlet_Princ_DatskiyiII.txt
+ - снег - 0
+Shekspir_U._Romeo_I_DjulettaIIII.txt
+ - снег - 1
+shhenok-pod-prikrytiem-18924566.txt
+ - снег - 0
+shokolad-121580.txt
+ - снег - 0
+sila-podsoznaniya-ili-kak-izmenit-zhizn-za-4-nedeli.txt
+ - снег - 0
+sila-voli-6298220.txt
+ - снег - 0
+sobache-serdtse-133810.txt
+ - снег - 0
+sobor-parizhskoj-bogomateri-129945.txt
+ - снег - 0
+son-v-letnyuyu-noch-125623.txt
+ - снег - 0
+starik-i-more-rasskazy-sbornik-25290752.txt
+ - снег - 0
+temnye-allei-621185.txt
+ - снег - 0
+Tolstoyi_L._Spisokshkolnoy._Posle_Bala.txt
+ - снег - 1
+Tolstoyi_L._Voyinaimir1._Voyina_I_Mir_Kniga_1-txt.txt
+ - снег - 15
+Tolstoyi_L._Voyinaimir2._Voyina_I_Mir_Kniga_2-txt.txt
+ - снег - 7
+triumfalnaya-arka-26112223.txt
+ - снег - 0
+troe-v-lodke-ne-schitaya-sobaki-138854.txt
+ - снег - 0
+tsvety-dlya-eldzhernona-145410.txt
+ - снег - 1
+Turgenev_I._Spisokshkolnoy._Otcyi_I_Deti.txt
+ - снег - 1
+Tven_M._Priklyucheniya1._Pohojdeniya_Toma_SoyieraI.txt
+ - снег - 0
+Ubijstvo-na-pole-dlya-golfa.txt
+ - снег - 0
+ubijstvo-v-vostochnom-ekspresse-18922333.txt
+ - снег - 5
+udivitelnoe-puteshestvie-krolika-edvarda.txt
+ - снег - 0
+ulybka.txt
+ - снег - 0
+velikij-getsbi-9447797.txt
+ - снег - 0
+vinni-puh-i-vse-vse-vse.txt
+ - снег - 12
+volk-i-yagnenok-22130098.txt
+ - снег - 0
+voron-i-lisitsa.txt
+ - снег - 0
+Yeposyi_legendy._Hrestomatiidly._Ilya_Muromec_I_Soloveyi_R.txt
+ - снег - 0
+zagadka-zakrytogo-yashhika-18889112.txt
+ - снег - 0
+zamok-iz-stekla-8634687.txt
+ - снег - 0
+zavtrak-u-tiffani-34330456.txt
+ - снег - 0
+zhizn-vzajmy-122510.txt
+ - снег - 11
+zoloto-hishhnikov-txt.txt
+ - снег - 1
+anna-karenina-172100.txt
+ - зима - 0
+bezdna-3523725.txt
+ - зима - 0
+bezumno-schastlivye-neveroyatno-smeshnye-rasskazy-o-nashej-obychnoj-zhizni-24155440.txt
+ - зима - 0
+bumazhnye-goroda-6371353.txt
+ - зима - 0
+Chehov_A._Loshadinaya_Familiya.txt
+ - зима - 0
+Chehov_A._Spisokshkolnoy._Chelovek_V_Futlyare.txt
+ - зима - 0
+Chehov_A._Spisokshkolnoy._Vishnevyiyi_Sad.txt
+ - зима - 2
+chertogi-razuma-ubej-v-sebe-idiota-32483943.txt
+ - зима - 0
+Defo_D._Robinzonkruzo1._Robinzon_Kruzo.txt
+ - зима - 3
+desyat-negrityat-22174330.txt
+ - зима - 0
+devushka-v-poezde-11306339.txt
+ - зима - 0
+Dnevnik-Bridzhit-Dzhons.txt
+ - зима - 2
+dnevnik-pamyati-180140.txt
+ - зима - 0
+do-vstrechi-s-toboj-txt.txt
+ - зима - 1
+don-kihot-48471399.txt
+ - зима - 0
+Dostoevskiyi_F._Idiot.txt
+ - зима - 0
+dyuna-55339991.txt
+ - зима - 0
+egipetskij-rebus-20102356.txt
+ - зима - 0
+ezhevichnoe-vino-654875.txt
+ - зима - 1
+forrest-gamp-6525365.txt
+ - зима - 0
+Gogol_N._Mertviye_DushiI.txt
+ - зима - 1
+goluboj-karbunkul-124159.txt
+ - зима - 0
+gordost-i-predubezhdenie-6257491.txt
+ - зима - 0
+Gorkiyi_M._Spisokshkolnoy._Na_Dne.txt
+ - зима - 1
+gormony-schastya-kak-priuchit-mozg-vyrabatyvat-serotonin-dofamin-endorfin-i-oksitotsin-21136251.txt
+ - зима - 0
+Griboedov_A._Klassikavshko._Gore_Ot_Uma.txt
+ - зима - 0
+grozovoj-pereval-137475.txt
+ - зима - 0
+hobbit-ili-tuda-i-obratno-122257.txt
+ - зима - 0
+hod-korolevy-51884058.txt
+ - зима - 0
+igra-endera-122405.txt
+ - зима - 0
+iskra-zhizni-128053.txt
+ - зима - 1
+kak-narisovat-lyubuyu-zveryushku-za-30.txt
+ - зима - 0
+kod-da-vinchi-118567.txt
+ - зима - 0
+kollektsioner-118944.txt
+ - зима - 0
+krasnaya-tabletka-posmotri-pravde-v-glaza-32481440.txt
+ - зима - 0
+kratkie-otvety-na-bolshie-voprosy-39500497.txt
+ - зима - 1
+kruella-66865688.txt
+ - зима - 0
+Kuprin_A._Granatovyiyi_Braslet.txt
+ - зима - 0
+kurinyj-bulon-dlya-dushi-my-silnee-nashih-strahov-101-istoriya-o-lyudyah-kotorye-risknuli-radi-mechty-51366443.txt
+ - зима - 0
+Kyerroll_L._Alisa_V_Strane_ChudesII.txt
+ - зима - 1
+lili-pridumyvaet-zhelanie-55316408.txt
+ - зима - 0
+Lisichka-sestrichka-i-volk.txt
+ - зима - 0
+magiya-utra-kak-pervyj-chas-dnya-opredelyaet-vash-uspeh-txt.txt
+ - зима - 0
+malchik-zvezda.txt
+ - зима - 1
+malenkie-zhenshhiny-50390816.txt
+ - зима - 1
+mechtat-ne-vredno-kak-poluchit-to-chego-dejstvitelno-hochesh-8205373.txt
+ - зима - 0
+nad-kukushkinym-gnezdom-132363.txt
+ - зима - 0
+nad-propastyu-vo-rzhi-127781.txt
+ - зима - 0
+nadvinuvshayasya-tma-txt.txt
+ - зима - 0
+noch-pered-rozhdestvom-21182288.txt
+ - зима - 0
+noch-v-lissabone-27061646.txt
+ - зима - 0
+o-chem-govoryat-cvety.txt
+ - зима - 0
+Ostrovskiyi_A._Bespridannica.txt
+ - зима - 0
+Ostrovskiyi_A._Spisokshkolnoy._Groza.txt
+ - зима - 0
+Petrov_E._Ostapbender1._Dvenadcat_StulevIIII.txt
+ - зима - 1
+Po-shhuchemu-veleniyu.txt
+ - зима - 0
+pochemu-rusalka-plachet-21201559.txt
+ - зима - 0
+podi-tuda-ne-znayu-kuda.txt
+ - зима - 0
+portret-doriana-greya-130224.txt
+ - зима - 0
+priklyucheniya-chipollino.txt
+ - зима - 0
+prizrak-koshki-18925237.txt
+ - зима - 0
+propavshij-izumrud-18925405.txt
+ - зима - 0
+Pushkin_A._Ruslan_I_Lyudmila-txt.txt
+ - зима - 0
+Pushkin_A._Spisokshkolnoy._Evgeniyi_Onegin.txt
+ - зима - 3
+razvivaj-svoj-mozg-kak-perenastroit-razum-i-realizovat-sobstvennyj-potentsial-39009060.txt
+ - зима - 0
+sadko.txt
+ - зима - 0
+sapiens-kratkaya-istoriya-chelovechestva-22150614.txt
+ - зима - 0
+Shekspir_U._Gamlet_Princ_DatskiyiII.txt
+ - зима - 0
+Shekspir_U._Romeo_I_DjulettaIIII.txt
+ - зима - 0
+shhenok-pod-prikrytiem-18924566.txt
+ - зима - 0
+shokolad-121580.txt
+ - зима - 0
+sila-podsoznaniya-ili-kak-izmenit-zhizn-za-4-nedeli.txt
+ - зима - 0
+sila-voli-6298220.txt
+ - зима - 0
+sobache-serdtse-133810.txt
+ - зима - 0
+sobor-parizhskoj-bogomateri-129945.txt
+ - зима - 1
+son-v-letnyuyu-noch-125623.txt
+ - зима - 0
+starik-i-more-rasskazy-sbornik-25290752.txt
+ - зима - 0
+temnye-allei-621185.txt
+ - зима - 0
+Tolstoyi_L._Spisokshkolnoy._Posle_Bala.txt
+ - зима - 0
+Tolstoyi_L._Voyinaimir1._Voyina_I_Mir_Kniga_1-txt.txt
+ - зима - 1
+Tolstoyi_L._Voyinaimir2._Voyina_I_Mir_Kniga_2-txt.txt
+ - зима - 1
+triumfalnaya-arka-26112223.txt
+ - зима - 0
+troe-v-lodke-ne-schitaya-sobaki-138854.txt
+ - зима - 0
+tsvety-dlya-eldzhernona-145410.txt
+ - зима - 0
+Turgenev_I._Spisokshkolnoy._Otcyi_I_Deti.txt
+ - зима - 1
+Tven_M._Priklyucheniya1._Pohojdeniya_Toma_SoyieraI.txt
+ - зима - 0
+Ubijstvo-na-pole-dlya-golfa.txt
+ - зима - 0
+ubijstvo-v-vostochnom-ekspresse-18922333.txt
+ - зима - 0
+udivitelnoe-puteshestvie-krolika-edvarda.txt
+ - зима - 1
+ulybka.txt
+ - зима - 0
+velikij-getsbi-9447797.txt
+ - зима - 0
+vinni-puh-i-vse-vse-vse.txt
+ - зима - 0
+volk-i-yagnenok-22130098.txt
+ - зима - 0
+voron-i-lisitsa.txt
+ - зима - 0
+Yeposyi_legendy._Hrestomatiidly._Ilya_Muromec_I_Soloveyi_R.txt
+ - зима - 0
+zagadka-zakrytogo-yashhika-18889112.txt
+ - зима - 0
+zamok-iz-stekla-8634687.txt
+ - зима - 0
+zavtrak-u-tiffani-34330456.txt
+ - зима - 2
+zhizn-vzajmy-122510.txt
+ - зима - 0
+zoloto-hishhnikov-txt.txt
+ - зима - 0

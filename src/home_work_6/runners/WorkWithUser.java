@@ -22,16 +22,15 @@ public class WorkWithUser {
 
             File dir=new File (link); // Создание директории
             LinkedList <File> files=new LinkedList<>(); // Создание списка файлов
-            if (dir.isDirectory()) {
-                for (File item: dir.listFiles()) {
-                    boolean checkExtensionOnFile=worker.checkExtension(item);
-                    if (checkExtensionOnFile) {
-                        files.add(item);
-                    }
+
+            for (File item: dir.listFiles()) {
+                boolean checkExtensionOnFile=worker.checkExtension(item);
+                if (checkExtensionOnFile) {
+                    files.add(item);
                 }
             }
 
-            FileWriter writer = new FileWriter("HomeWork/src/home_work_6/files/result.txt", true);
+            FileWriter writer = new FileWriter("HomeWork/src/home_work_6/files/result.txt");
 
             int i=1;
             for (File file:files) { // Вывод файлов в консоль
