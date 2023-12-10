@@ -68,7 +68,11 @@ EasySearcherTest (пакет home_work_6.searchers)
 RegExSearchTest (пакет home_work_6.searchers)
 SearchEngineCaseNormalizerTest (пакет home_work_6.searchers)
 SearchEnginePunctuationNormalizerTest (пакет home_work_6.searchers)
+EasyRegExTest (пакет home_work_6.searchers)
 
 Тестирование методов, выполняющих работу в классах WorkWithUser и Main
 SearcherTest (пакет home_work_6.searchers)
 WorkOnBook (пакет home_work_6.tools)
+
+Тестирование метода, выполняющего многопоточный поиск элементов в классе WorkWithStreams
+WorkWithStreamsTest (пакет home_work_6.runners)

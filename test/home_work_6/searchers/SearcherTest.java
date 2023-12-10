@@ -1,76 +1,52 @@
 package home_work_6.searchers;
 
+import home_work_6.api.ISearchEngine;
 import home_work_6.searches.*;
 import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.Test;
+import org.junit.jupiter.params.ParameterizedTest;
+import org.junit.jupiter.params.provider.MethodSource;
+
+import java.util.stream.Stream;
 
 public class SearcherTest {
-    @Test
-    public void findFrequencyOfWord1 (){
-        Searcher searcher=new Searcher(new EasySearch());
+
+    @ParameterizedTest
+    @MethodSource("searchEngineProvider")
+    public void findFrequencyOfWord1 (ISearchEngine searchEngine){
+        Searcher searcher=new Searcher(searchEngine);
         long result=searcher.findFrequencyOfWord("привет, как дела!","привет");
         Assertions.assertEquals(1,result);
     }
 
-    @Test
-    public void findFrequencyOfWord2 (){
-        Searcher searcher=new Searcher(new EasySearch());
+    @ParameterizedTest
+    @MethodSource("searchEngineProvider")
+    public void findFrequencyOfWord2 (ISearchEngine searchEngine){
+        Searcher searcher=new Searcher(searchEngine);
         long result=searcher.findFrequencyOfWord("теплыйВесенний вечер","теплый");
         Assertions.assertEquals(0,result);
     }
 
-    @Test
-    public void findFrequencyOfWord3 (){
-        Searcher searcher=new Searcher(new EasySearch());
+    @ParameterizedTest
+    @MethodSource("searchEngineProvider")
+    public void findFrequencyOfWord3 (ISearchEngine searchEngine){
+        Searcher searcher=new Searcher(searchEngine);
         long result=searcher.findFrequencyOfWord("теплыйN Весенний вечер","теплый");
         Assertions.assertEquals(0,result);
     }
 
-    @Test
-    public void findFrequencyOfWord4 (){
-        Searcher searcher=new Searcher(new EasySearch());
+    @ParameterizedTest
+    @MethodSource("searchEngineProvider")
+    public void findFrequencyOfWord4 (ISearchEngine searchEngine){
+        Searcher searcher=new Searcher(searchEngine);
         long result=searcher.findFrequencyOfWord("Теплый Весенний Вечер","теплый");
         Assertions.assertEquals(0,result);
     }
 
-    @Test
-    public void findFrequencyOfWord5 (){
-        Searcher searcher=new Searcher(new EasySearch());
-        long result=searcher.findFrequencyOfWord("Теплый весенний вечер!","вечер");
-        Assertions.assertEquals(1,result);
-    }
-
-    @Test
-    public void findFrequencyOfWord6 (){
-        Searcher searcher=new Searcher(new RegExSearch());
-        long result=searcher.findFrequencyOfWord("привет, как дела!","привет");
-        Assertions.assertEquals(1,result);
-    }
-
-    @Test
-    public void findFrequencyOfWord7 (){
-        Searcher searcher=new Searcher(new RegExSearch());
-        long result=searcher.findFrequencyOfWord("теплыйВесенний вечер","теплый");
-        Assertions.assertEquals(0,result);
-    }
-
-    @Test
-    public void findFrequencyOfWord8 (){
-        Searcher searcher=new Searcher(new RegExSearch());
-        long result=searcher.findFrequencyOfWord("теплыйN Весенний вечер","теплый");
-        Assertions.assertEquals(0,result);
-    }
-
-    @Test
-    public void findFrequencyOfWord9 (){
-        Searcher searcher=new Searcher(new RegExSearch());
-        long result=searcher.findFrequencyOfWord("Теплый Весенний Вечер","теплый");
-        Assertions.assertEquals(0,result);
-    }
-
-    @Test
-    public void findFrequencyOfWord10 (){
-        Searcher searcher=new Searcher(new RegExSearch());
+    @ParameterizedTest
+    @MethodSource("searchEngineProvider")
+    public void findFrequencyOfWord5 (ISearchEngine searchEngine){
+        Searcher searcher=new Searcher(searchEngine);
         long result=searcher.findFrequencyOfWord("Теплый весенний вечер!","вечер");
         Assertions.assertEquals(1,result);
     }
@@ -143,5 +119,12 @@ public class SearcherTest {
         Searcher searcher=new Searcher(new SearchEngineCaseNormalizer(new EasySearch()));
         long result=searcher.findFrequencyOfWord("Теплый весенний вечер!","вечер");
         Assertions.assertEquals(1,result);
+    }
+
+    public static Stream<ISearchEngine> searchEngineProvider(){
+        return Stream.of(
+                new EasySearch(),
+                new RegExSearch()
+        );
     }
 }
